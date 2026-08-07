@@ -1,21 +1,14 @@
-<<<<<<< HEAD
-name: Repository Validation
+name: CI
 
 on:
   push:
-    branches:
-      - main
-      - development
-      - "feature/**"
+    branches: [main, development]
   pull_request:
-    branches:
-      - main
-      - development
+    branches: [main, development]
 
 jobs:
-  validate-structure:
+  validate:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -31,17 +24,4 @@ jobs:
           test -d src/layer2-detection
           test -d src/layer3-xai
           test -d src/layer4-hitl
-=======
-name: CI
-
-on:
-  push:
-    branches: [ main, development ]
-  pull_request:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
->>>>>>> target/main
+          echo "Repository structure validation passed"
