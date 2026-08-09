@@ -88,4 +88,16 @@ The system is built on **four main layers**:
 ├── tests/            # Unit and integration tests
 ├── .github/workflows/ # CI/CD pipelines
 └── README.md
+
+
+### 🚀 Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-000000?style=for-the-badge&logo=shield&logoColor=white)
+![Explainable AI](https://img.shields.io/badge/Explainable%20AI-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 >>>>>>> fork/main
+
+
