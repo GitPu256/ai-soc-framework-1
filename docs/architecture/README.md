@@ -162,7 +162,8 @@ This section describes the design diagrams supporting the SOC framework.
 3.4.1 Data Flow Diagram (DFD)
 Shows telemetry flow from ingestion → normalization → feature extraction → detection → explainability → governance → audit logging.
  Data Flow Diagram
- 
+ <img width="975" height="650" alt="image" src="https://github.com/user-attachments/assets/d92cd1c6-c9d7-4571-a8f5-824e6273e619" />
+
 Figure 4. Data flow diagram showing end to end SOC processing pipeline.
 3.4.2 UML Use Case Diagram
 Defines interactions among:
@@ -174,7 +175,8 @@ Defines interactions among:
 •	Explainability Service
 •	SOAR Platform
 UML Use Case Diagram
- 
+ <img width="975" height="650" alt="image" src="https://github.com/user-attachments/assets/3ba15103-e837-40e1-8cbc-22520fe1c828" />
+
 Figure 5. Use case diagram showing interactions between SOC stakeholders and system components.
 3.4.3 Entity Relationship Diagram (ERD)
 Defines core entities:
@@ -190,6 +192,7 @@ Defines core entities:
 •	Asset
 •	ATT&CKTechnique
 Entity Relationship Diagram
- 
+ <img width="1050" height="524" alt="image" src="https://github.com/user-attachments/assets/a4bfe302-3397-46f5-adb5-86ec32df3100" />
+
 Figure 6: ER diagram showing traceability from raw telemetry to final response and audit evidence
 
