@@ -193,3 +193,21 @@ Entity Relationship Diagram
  
 Figure 6: ER diagram showing traceability from raw telemetry to final response and audit evidence
 
+# Architecture Documentation
+
+This directory contains all architecture diagrams and supporting documentation for the AI‑SOC Framework.
+
+## 📊 Data Flow Diagram
+![Data Flow Diagram](./Data Flow Diagram.png)
+
+## 🧩 Entity Relationship Diagram (ERD)
+![Entity Relationship Diagram](./Entity Relationship Diagram.png)
+
+## 📝 Project Risk Register Table
+![Project Risk Register Table](./Project Risk Register Table.png)
+
+## 📦 Resource Justification Table
+![Resource Justification Table](./Resource Justification Table.png)
+
+## 🎭 UML Use Case Diagram
+![UML Use Case Diagram](./UML Use Case Diagram.png)
