@@ -1,0 +1,13 @@
+import time
+from algorithms import quicksort
+
+data = [9, 3, 7, 1, 8, 2, 5, 4, 6]
+
+start = time.time()
+sorted_data = quicksort(data)
+end = time.time()
+
+print("Latency Test")
+print("Input:", data)
+print("Sorted:", sorted_data)
+print("Latency:", end - start)

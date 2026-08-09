@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="sendLogs()">Process Logs</button>
+<pre id="output"></pre>
+
+<script>
+const logs = [
+    {"timestamp": 1721145600, "severity": 3},
+    {"timestamp": 1721145620, "severity": 8},
+    {"timestamp": 1721145650, "severity": 2},
+    {"timestamp": 1721145700, "severity": 5},
+    {"timestamp": 1721145720, "severity": 9},
+    {"timestamp": 1721145800, "severity": 1},
+    {"timestamp": 1721145850, "severity": 7}
+];
+
+function sendLogs() {
+    fetch("http://127.0.0.1:8000/logs/process", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(logs)
+    })
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("output").textContent =
+            JSON.stringify(data, null, 2);
+    });
+}
+</script>
+</body>
+</html>
