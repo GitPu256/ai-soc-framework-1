@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![GitHub](https://img.shields.io/github/v/release/PNjenga/ai-soc-framework)
 
-**Capstone Project** | **AI-Powered SOC with Explainability & Governance**
+ **AI-Powered SOC with Explainability & Governance**
 
 ---
 
